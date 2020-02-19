@@ -14,7 +14,7 @@ class CoursesPage extends React.Component {
     redirectToAddCoursePage: false
   };
   componentDidMount() {
-    const { courses, authors, actions } = this.props;
+    const { courses, authors } = this.props;
     if (courses.length === 0) {
       this.props.actions.loadCourses().catch(error => {
         alert("Loading courses failed" + error);
