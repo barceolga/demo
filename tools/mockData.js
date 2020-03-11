@@ -72,9 +72,9 @@ const courses = [
 ];
 
 const authors = [
-  { id: 1, name: "Cory House" },
-  { id: 2, name: "Scott Allen" },
-  { id: 3, name: "Dan Wahlin" }
+  { id: 1, name: "Cory House", experience: 15, skills: ["Javascript", "React", "Angular"], slug: "react-expert" },
+  { id: 2, name: "Scott Allen", experience: 15, skills: ["Javascript", "Vue", "Angular"], slug: "angular-expert"  },
+  { id: 3, name: "Dan Wahlin", experience: 15, skills: ["Javascript", "React", "Vue"], slug: "vue-expert"   }
 ];
 
 const newCourse = {
