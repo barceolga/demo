@@ -21,6 +21,10 @@ const Header = courses => {
       <NavLink to="/courses" activeStyle={activeStyle}>
         Courses
       </NavLink>
+      {" | "}
+      <NavLink to="/authors" activeStyle={activeStyle}>
+        Authors
+      </NavLink>
       <div>
         {coursesNumber === 0 ? null : (
           <h3>Total courses number: {coursesNumber}</h3>
