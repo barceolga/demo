@@ -52,7 +52,7 @@ class AuthorsPage extends React.Component {
               className="btn btn-primary add-course"
               onClick={() => this.setState({ redirectToAddAuthorPage: true })}
             >
-              Add Course
+              Add Author
             </button>
             <AuthorsList
               authors={this.props.authors}
